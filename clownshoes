@@ -10,7 +10,7 @@
 </style>
   <body>
     <center><br>
-      <img>shoes.jpg</img>
+      <img src="shoes.jpg" alt="He sees you when you're sleeping.  He knows when you're awake.">
     </center>
   </body>
 </html>
