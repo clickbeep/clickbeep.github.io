@@ -1,30 +1,42 @@
 <!DOCTYPE html>
+<html><head>
 <title>Click Beep</title>
-
-<meta name="apple-mobile-web-app-title" content="Click Beep">
+<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+<link rel="apple-touch-startup-image" href="/launch.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Click Beep">
 <meta name="apple-mobile-web-app-status-bar-style" content="#303030">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
-<link rel="apple-touch-startup-image" href="/launch.png">
+<style>
+body {margin: 0;}
+div.ex2 {max-width:900px;margin: auto;}
+ul.topnav {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #303030;}
+ul.topnav li {float: left;}
+ul.topnav li a {display: block;color: white;text-align: center;padding: 18px 25px;text-decoration: none;}
+ul.topnav li a:hover:not(.active) {color: #919191;}
+ul.topnav li a.active {color: #919191;}
+ul.topnav li.right {float: right;}
 
-<html>
+@media screen and (max-width: 400px){ul.topnav li.right, ul.topnav li {float: none;}}
 
-<head><style>
-div.ex2 {max-width:800px;margin: auto;border: 1px solid #303030;}
-ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #303030;}
-li {float: left;}
-li a {display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;}
-li a:hover:not(.active) {color: #919191;}.active {color: #919191;}
 </style></head>
 
-<body><font face="Quattrocento Sans">
-<div class="ex2"><ul>
-<li><a href="http://clickbeep.net">Click Beep</a></li>
-<li style="float:right"><a href="#about">About</a></li>
+<body><font face="Quattrocento Sans"><div class="ex2">
+
+<ul class="topnav">
+  <li><a href="#home">Click Beep</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li class="right"><a href="#about">About</a></li>
 </ul></div>
 
-</font></body>
+<div style="padding:0 16px;"><center>
+  <h2>Responsive Topnav Example</h2>
+  <p>This example use media queries to stack the topnav vertically when the screen size is 600px or less.</p>
+  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+  <h4>Resize the browser window to see the effect.</h4>
+</center></div>
 
+</font></body>
 </html>
