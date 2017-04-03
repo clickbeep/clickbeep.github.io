@@ -1,17 +1,46 @@
 <!DOCTYPE html>
+<html><head>
+<title>About This Site</title>
 <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
-<meta name="apple-mobile-web-app-title" content="Tyler + 5 Guys">
+<link rel="apple-touch-startup-image" href="/launch.png">
+<link rel="mask-icon" href="website_icon.svg" color="red">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="#f1f1f1">
-<html><head><title>Tyler + 5 Guys</title></head>
+<meta name="apple-mobile-web-app-title" content="Click Beep">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
-  body {
-    background-color: #f1f1f1;
-    }
-</style>
-  <body>
-    <center><br>
-      <font face="Quattrocento Sans" size="3"><br><br>This guy.  He'll leave for lunch,<br>and he'll have five guys for lunch.<br><br>Five guys, all at once.<br><br>Doesn't even make him too sore to sit down.</font>
-    </center>
-  </body>
+body {margin: 0;}
+div.nav {max-width:1200px;margin: auto;}
+div.body {padding: 5px 15px 5px 15px;max-width:1000px;margin: auto;}
+div.foot {padding: 5px 15px 5px 15px;max-width:900px;margin: auto;}
+ul.topnav {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #303030;}
+ul.topnav li {float: left;}
+ul.topnav li a {display: block;color: #ffffff;text-align: center;padding: 13px 25px;text-decoration: none;}
+ul.topnav li a:hover:not(.active) {color: #b7b7b7;}
+ul.topnav li a.active {color: #b7b7b7;}
+ul.topnav li.right {float: right;}
+@media screen and (max-width: 411px){ul.topnav li.right, ul.topnav li {float: none;}}
+</style></head>
+
+<body><font face="Quattrocento Sans">
+
+<div class="nav">
+<ul class="topnav">
+<li><a href="http://clickbeep.net/testhome">Click Beep</a></li>
+<li><a href="#news">Blank Link 1</a></li>
+<li><a href="#contact">Blank Link 2</a></li>
+<li class="right"><a href="http://www.clickbeep.net/testabout">About</a></li>
+</ul></div>
+
+<div class="body">
+<center>
+<h3>This guy.  He'll leave for lunch,<br>and he'll have five guys for lunch.<br><br>Five guys, all at once.<br><br>Doesn't even make him too sore to sit down.</h3>
+</center></div>
+
+<div class="foot"><center>
+Copyright 2017, Click Beep. <a href="mailto:jim@clickbeep.net">Email.</a>
+</center></div>
+
+</font></body>
 </html>
