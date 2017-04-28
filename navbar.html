@@ -1,0 +1,35 @@
+<!DOCTYPE html><html>
+
+<head>
+<title>Vertically centred horizontal nav.</title>
+<style>
+
+#nav{border:1px solid #ccc;border-width:1px 0;list-style:none;margin:0;padding:0;text-align:center;}
+#nav li{position:relative;display:inline;}
+#nav a{display:inline-block;padding:10px;}
+#nav ul{position:absolute;left:-9999px;margin:0;padding:0;text-align:left;}
+#nav ul li{display:block;}
+
+#nav li:hover ul{left:0;}
+#nav li:hover a{text-decoration:underline;background:#f1f1f1;}
+#nav li:hover ul a{text-decoration:none;background:none;}
+#nav li:hover ul a:hover{text-decoration:underline;background:#f1f1f1;}
+
+#nav ul a{white-space:nowrap;display:block;border-bottom:1px solid #ccc;}a{color:#c00;text-decoration:none;font-weight:bold;}a:hover{text-decoration:underline;background:#f1f1f1;}
+</style></head>
+
+<ul id="nav">
+<li><a href="/">Click Beep</a></li>
+<li><a href="/about/">Download</a></li>
+<li><a href="/portfolio/">YouTube</a></li>
+<li><a href="/archives/">Clown Shoes</a></li>
+<li><a href="/resources/">Resources</a></li>
+<li><a href="/contact/">About</a></li>
+</ul>
+
+<body><center>
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+</center></body>
+
+</html>
