@@ -22,6 +22,23 @@ div.foot {padding: 5px 15px 5px 15px;max-width:900px;margin: auto;}
 a{color: #ffffff;text-decoration:none;}
 a: hover{color: #b7b7b7;text-decoration: none;}
 .calendar {background-color: #ec4d3d;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;}
+
+html {box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit;}
+
+.column {float: left;width: 40%;margin-bottom: 16px;padding: 0 8px;}
+
+@media (max-width: 650px) {.column {width: 100%;display: block;}}
+
+.card {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);}
+
+.container {padding: 0 16px;}
+
+.container::after, .row::after {content: "";clear: both;display: table;}
+
+.title {color: grey;}
+
 </style></head>
 
 <font face="Quattrocento Sans">
@@ -36,14 +53,43 @@ a: hover{color: #b7b7b7;text-decoration: none;}
 <center><br><br>
 <h1>Click Beep Calendar</h1>
 <h2>July 2017</h2>
-<p>Pokemon Go Fest<br>July 20-23<br>337 E Randolph St Chicago, IL 60601 United States<br>Attending: Jim, Tyler</p>
-<p>Mario Kart Tournament<br>July 29<br>6569 Clay Ave SW Grand Rapids, MI 49548 United States<br>Attending: </p>
+
+<div class="row">
+
+<div class="column"><div class="card"><div class="container">
+<h3>Pokemon Go Fest</h3><p>July 20-23<br>337 E Randolph St Chicago, IL 60601 United States<br>Attending: Jim, Tyler</p>
+</div></div></div>
+<div class="column"><div class="card"><div class="container">
+<h3>Mario Kart Tournament</h3><p>July 29<br>6569 Clay Ave SW Grand Rapids, MI 49548 United States<br>Attending: </p>
+</div></div></div>
+</div>
+
 <h2>August 2017</h2>
-<p>GenCon<br>August 17-20<br><br>Attending: </p>
+
+<div class="row">
+
+<div class="column"><div class="card"><div class="container">
+<h3>GenCon</h3><p>August 17-20<br><br>Attending: </p>
+</div></div></div>
+</div>
+
 <h2>September 2017</h2>
-<p>Emotiva Emofest<br>September 2-3<br>Franklin, TN<br>Attending: Jim, Rachel</p>
+
+<div class="row">
+
+<div class="column"><div class="card"><div class="container">
+<h3>Emotiva Emofest</h3><p>September 2-3<br>Franklin, TN<br>Attending: Jim, Rachel</p>
+</div></div></div>
+</div>
+
 <h2>October 2017</h2>
-<p>Rocky Mountain Audio Fest<br>4900 S Syracuse St Denver, CO 80237 United States<br>Attending: Jim, Roge</p>
+
+<div class="row">
+
+<div class="column"><div class="card"><div class="container">
+<h3>Rocky Mountain Audio Fest</h3><p>4900 S Syracuse St Denver, CO 80237 United States<br>Attending: Jim, Roge</p>
+</div></div></div>
+</div>
 
 <br><br><a href="webcal://p59-calendars.icloud.com/published/2/oF0WdeqTVQ1c0hU5TU3UwmYsJcXYAgxE-OuSWvekSLd8l_m2ePmFOYxiYcjrAIxb" class="calendar">Subscribe To Click Beep Calendar</a><br><br>
 
