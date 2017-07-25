@@ -16,7 +16,10 @@ body {margin: 0;}
 img {max-width: 100%;height: auto;}
 div.body {padding: 5px 15px 5px 15px;max-width:1000px;margin: auto;}
 div.article {padding: 5px 15px 5px 15px;max-width:800px;margin: auto;}
-div.video {padding: 5px 15px 5px 15px;max-width:700px;margin: auto;}
+
+.video-container {position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden;}
+.video-container iframe, .video-container object, .video-container embed {position:absolute; top:0;left:0;width:100%;height:100%;}
+
 div.foot {padding: 5px 15px 5px 15px;max-width:900px;margin: auto;}
 #nav{list-style:none;margin:0;padding:0;text-align:center;background-color: #303030;position: fixed;top: 0;width: 100%;}
 #nav li {position: relative;display: inline;}
@@ -48,7 +51,7 @@ a: hover{color: #b7b7b7;text-decoration: none;}
 <p>And I swear if you tell me I am boring, I will change your 'Contributor' picture into the poop emoji.</p>
 <br><br></div>
 
-<div class="video">
+<div class="video-container">
 <center><iframe style="width:100% height:100%" src="https://www.youtube.com/embed/HwEP1NHIVTw"></iframe>
 <iframe allowfullscreen="" frameborder="0" height="360" src="https://www.youtube.com/embed/HwEP1NHIVTw" width="640"></iframe>
 </center></div>
