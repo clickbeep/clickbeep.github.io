@@ -42,23 +42,26 @@ iframe {max-width: 100%;height: auto;}
 @media (max-width: 500px) {.column {width: 100%;display: block;}}
 .container {padding: 0 16px;max-height:210px}
 .container::after, .row::after {content: "";clear: both;display: table;}
+.featured {padding: 5px 15px 5px 15px;max-width:800px;margin: auto;}
 .title {color: grey;}
 
 </style></head>
 
 <body>
-<div class="body">
 
 <center><h2>Welcome to Click Beep</h2>
 <p>Here is some news and stuff.</p><br></center>
 
+<div class="featured">
 <div class="column">
 <div class="card"><img src="/images/placeholder2.png" alt="Article 4" style="width:100%">
 <div class="container"><h2 class="title">Featured Article</h2><p class="title">Alt Line (if necessary)</p>
-<p style="max-height: 50px;overflow: auto;">Because HTML is hard and I’m not a professional (and I’m not yet paying WordPress), the blurb here will be limited to 280 characters until I say so.  And you’ll need to write 270-275 characters, and then give a “…” at the end because that will keep the formatting the same and…</p>
+<p>Because HTML is hard and I’m not a professional (and I’m not yet paying WordPress), the blurb here will be limited to 280 characters until I say so.  And you’ll need to write 270-275 characters, and then give a “…” at the end because that will keep the formatting the same and…</p>
 <p><button class="button">Read More</button></p>
 </div></div></div>
+</div>
 
+<div class="body">
 <div class="row">
 
 <div class="column"><div class="card">
